@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 50px;
+}
+
+.flexed{
+    display: flex;
+}
+
+.centered{
+    align-items: center;
+}
+
+.navbar{
+    align-items: center;
+}
+
+li{
+    margin-left: 40px;
+}
