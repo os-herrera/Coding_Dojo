@@ -13,52 +13,58 @@
     </style>
 </head>
 <body>
-    <!-- Heading -->
-    <h1>Registration Form</h1>
-    <!-- Contact Info -->
-    <div>
-        <label for="name">First Name:*</label><input type="text" id="name" name="first_name">
-        <br>
-        <label for="name">Last Name:*</label><input type="text" id="name" name="last_name">
-        <br>
-        <label for="email">Email Address:*</label><input type="text" id="email" name="email_address">
-    </div>
-    <!-- password -->
-    <div>
-        <label for="password">Password:*</label><input type="password" name="password" id="password">
-        <br>
-        <label for="password">Confirm Password:*</label><input type="password" name="confirm_password" id="password">
-    </div>
-    <!-- Birthday and Gender Identity -->
-    <div>
-        <label for="date">Birthday:</label><input type="date" name="birthday" id="date">
-        <br>
-        <label for="radio">Gender Identity:</label>
-        <br>
-        <input type="radio" name="gender" id="male"><label for="radio">Male</label>
-        <input type="radio" name="gender" id="female"><label for="radio">Female</label>
-        <input type="radio" name="gender" id="non_binary"><label for="radio">Non-Binary</label>
-        <input type="radio" name="gender" id="i_prefer_not_to_answer"><label for="radio">I prefer not to answer</label>
-    </div>
-    <!-- Description and Favorite Language -->
-    <div>
-        <label for="text">A short description of myself:</label>
-        <br>
-        <textarea name="" id="" cols="30" rows="3"></textarea>
-        <br>
-        <label>Favorite Language:</label>
-        <select name="language">
-            <option>JavaScript</option>
-        </select>
-    </div>
-    <!-- Agree and Create Account -->
-    <div>
-        <input type="checkbox" name="accept" id="accept">
-        <label for="accept">Yes, I would like to receive periodic email updates</label>
-        <br>
-        <input type="submit" value="Create Account">
-        <br>
-        <label>*Indicates a required field</label>
-    </div>
+    <form>
+        <h1>Registration Form</h1>
+        <div>
+            <label for="name">First Name:*</label><input name="first_name">
+        </div>
+        <div>
+            <label for="name">Last Name:*</label><input type="text" name="last_name">
+        </div>
+        <div>
+            <label for="email">Email Address:*</label><input type="text" name="email_address">
+        </div>
+        <div>
+            <label for="password">Password:*</label><input type="password" name="password">
+        </div>
+        <div>
+            <label for="password">Confirm Password:*</label><input type="password" name="confirm_password">
+        </div>
+        <div>
+            <label>Birthday:</label><input type="date" name="birthday">
+        </div>
+        <div>
+            <p>Gender Identity:</p>
+            <input type="radio" name="gender" value="Male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="Female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="Non-Binary" id="nb">
+            <label for="nb">Non-Binary</label>
+            <input type="radio" name="gender" value="I prefer not to answer" id="not">
+            <label for="not">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short description of myself:</p>
+            <textarea name="description" cols="30" rows="3"></textarea>
+        </div>
+        <div>
+            <label>Favorite Language:</label>
+            <select name="language">
+                <option>JavaScript</option>
+                <option>CSS</option>
+                <option>HTML</option>
+                <option>Python</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <p>*Indicates a required field</p>
+    </form>
 </body>
 </html>
