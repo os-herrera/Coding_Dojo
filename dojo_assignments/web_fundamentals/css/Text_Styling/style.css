@@ -1,36 +1,30 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    text-size-adjust: 150px;
+* {
+  font-family: 'Balsamiq Sans', cursive;
+  margin: 0px auto;
+  padding: 5px;
 }
 
 h1 {
-    color: rgb(255, 255, 255);
-    background-color: black;
-    display: flex;
-    width: 1200px;
-    height: 60px;
-    margin-bottom: 20px;
-}
-h2 {
-    color: rgb(255, 255, 255);
-    background-color: purple;
-    text-align: center;
-    font-style: italic;
-    width: 1200px;
-    height: 60px;
-    margin-bottom: 20px;
-    
-}
-h3 {
-    color: rgb(0, 0, 0);
-    background-color: cadetblue;
-    text-align: right;
-    text-decoration: underline;
-    width: 1200px;
-    height: 60px;
+  background-color: black;
+  color: white;
+  margin-bottom: 8px;
 }
 
-.highlight {
-    color: aqua;
+h1 span {
+  color: cyan;
+}
+
+h2 {
+  background-color: rgb(102,51,153);
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+h3 {
+  background-color: rgb(159,197,248);
+  text-align: right;
+  text-decoration: underline;
+  margin-bottom: 8px;
 }
