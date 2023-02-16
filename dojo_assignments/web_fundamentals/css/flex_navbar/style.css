@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +11,10 @@
   background-color: #333333;
   color: white;
   height: 55px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-title {
-
 }
 
 h1 {
@@ -34,7 +33,6 @@ h1 {
 
 .active {
   font-weight: 400;
-
 }
 
 a {
@@ -44,11 +42,9 @@ a {
 }
 
 .btn {
-  background-color: #17A2B8;
+  background-color: #17a2b8;
   color: white;
   width: 85px;
   height: 30px;
   box-shadow: 3px 3px black;
-
 }
-
