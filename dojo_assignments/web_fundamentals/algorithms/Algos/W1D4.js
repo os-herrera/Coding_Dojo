@@ -1,4 +1,3 @@
-// // assigns value of 5 to x
 // var x = 5;
     
 
@@ -25,10 +24,6 @@
 // var x = 5;
     
 // function addToX(amount) {
-//     // Whwen we return something from our function,
-//     // the function ends
-
-//     //The function gives back whatever value is after the return!
 
 //     return x + amount;
 //     // 5+ -10
@@ -50,25 +45,22 @@
 
 
 
-// function isPal(arr) {
-//     // arr is a standard name for an array variable
-//     for(var left=0; left<arr.length/2; left++) {
-//         var right = arr.length-1-left;
-//         if(arr[left] != arr[right]) {
-//             // if(1 != 1  )
-//             // if(1 != 2)
-//             return "Not a pal-indrome!";
-//         }
-//     }
-//     return "Pal-indrome!";
-// }
+function isPal(arr) {
+    for(var left=0; left<arr.length/2; left++) {
+        var right = arr.length-1-left;
+        if(arr[left] != arr[right]) {
+            return "Not a pal-indrome!";
+        }
+    }
+    return "Pal-indrome!";
+}
     
-// var result1 = isPal( [1, 1, 2, 2, 1] );
-// // result = "Not a pal-indrome!"
-// console.log(result1);
+var result1 = isPal( [1, 1, 2, 2, 1] );
+// Output = "Not a pal-indrome!"
+console.log(result1);
     
-// var result2 = isPal( [3, 2, 1, 1, 2, 3] );
-// console.log(result2);
-// // Output "Pal-indrome!"
+var result2 = isPal( [3, 2, 1, 1, 2, 3] );
+console.log(result2);
+// Output "Pal-indrome!"
 
 

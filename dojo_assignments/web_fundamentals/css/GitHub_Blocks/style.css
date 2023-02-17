@@ -16,7 +16,7 @@ h1 {
 }
 
 img {
-  height: 200px;
+  width: 200px;
 }
 
 .row {
@@ -26,13 +26,13 @@ img {
 }
 
 #row-1 {
-  background-color: #5CC5E4;
+  background-color: #5cc5e4;
   justify-content: space-between;
   align-items: center;
 }
 
 #row-2 {
-  background-color: #D8A8B0;
+  background-color: #d8a8b0;
   justify-content: space-evenly;
   align-items: center;
 }
