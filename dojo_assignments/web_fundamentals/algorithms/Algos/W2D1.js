@@ -43,7 +43,14 @@ var lifesAnswers = [
     "My sources say no.",
     "Outlook not so good.",
     "Very doubtful."
-];
+]
+
+function getrandomintinclusive() {
+    min = 0;
+    max = lifesAnswers.length-1;
+    let lifechoices= math.floor(math.random)
+
+}
 
 
 

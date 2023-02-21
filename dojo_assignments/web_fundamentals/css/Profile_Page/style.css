@@ -1,211 +1,271 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 * {
-  padding: 0 auto;
-  margin: 0 auto;
-  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: "Balsamiq Sans", cursive;
+  background-color: whitesmoke;
 }
 
-.nav {
-  width: 100%;
-  height: 60px;
+/* Nav Bar */
+.nav-bar {
+  background-color: black;
+  height: 70px;
   display: flex;
   align-items: center;
-  background-color: black;
-  padding: 0 75px;
+  justify-content: space-evenly;
 }
 
-.nav-title {
-  color: white;
-  justify-content: space-between;
-  /* padding-left: 45px; */
-}
-
-.nav-links {
-  flex: 4;
-  padding-right: 15px;
-}
-
-li {
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(185, 185, 185);
-}
-
-.myprof {
-  font-weight: bolder;
-  color: white;
-}
-
-.btn {
-  flex: 2;
-}
-
-.btn button {
-  margin-left: auto;
-  background-color: cadetblue;
-  color: white;
-  padding: 5px 10px;
-}
-
-.page {
-  padding: 30px 40px 0px 40px;
-  width: 900px;
+ul {
   display: flex;
-}
-
-.col {
-  flex: 2;
-  margin: 10px;
-}
-
-.prof-user,
-.conreq {
-  margin-bottom: 20px;
-}
-
-.gear-link {
-  text-decoration: underline;
-  color: rgb(40, 148, 170);
-}
-
-.head {
-  height: 90px;
-  background-color: cadetblue;
-  border: 4px solid cadetblue;
+  gap: 30px;
+  color: #afafaf;
+  list-style: none;
+  align-items: center;
 }
 
 .profile {
-  height: 90px;
-  border: 3px solid white;
+  color: white;
+  font-size: 30px;
+}
+
+.my-profile {
+  color: white;
+}
+
+button {
+  background-color: #17a2b8;
+  color: #ddedf1;
+  width: 80px;
+  font-size: 18px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+/* Main */
+.main {
+  width: 900px;
+  height: 750px;
+  margin: 0 auto;
+  margin-top: 35px;
+  display: flex;
+}
+
+/* left column */
+.left-col {
+  height: 750px;
+  width: 550px;
+}
+
+/* User Card */
+.user-card {
+  width: 550px;
+  height: 350px;
+  border: solid 3px #cfcfcf;
+}
+
+.user-head {
+  background-color: #17a2b8;
+  height: 100px;
+}
+
+.user-m {
+  width: 90px;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px lightgray;
   position: relative;
-  left: 50px;
-  top: 30px;
+  left: 25px;
+  top: 50px;
+  border: solid 2px #cfcfcf;
 }
 
-.body {
-  border: 3px solid lightgray;
-  border-top: 0px;
-  padding-bottom: 10px;
+.user-body {
+  margin-left: 30px;
+  margin-top: 60px;
 }
 
-.bio {
-  padding: 40px;
+.user-body h1 {
+  margin-bottom: 10px;
 }
 
-.location,
-.detail {
+.user-body p {
+  margin-bottom: 15px;
   margin-top: 15px;
 }
 
-.map {
-  height: 25px;
-  float: left;
-  margin-right: 10px;
+.icon-s {
+  width: 15px;
 }
 
-.extra {
-  margin-top: 25px;
+a {
+  color: #145595;
 }
 
-.gear {
-  height: 20px;
-  float: left;
-  margin-right: 10px;
+/* Education Section */
+.education {
+  width: 550px;
+  margin-top: 35px;
+  border: solid 3px #cfcfcf;
 }
 
-.eduhead,
-.reqhead,
-.connhead {
-  padding: 0px 0px 0px 20px;
-  height: 40px;
-  border: 3px solid rgb(38, 38, 38);
-  background-color: rgb(38, 38, 38);
-  color: lightgray;
-}
-
-.edubody,
-.reqbody,
-.connbody,
-.connfoot {
-  padding: 15px;
-  border: 3px solid lightgray;
-  border-top: 0px;
-}
-
-.reqbody,
-.connbody {
+.edu-head {
+  background-color: #333333;
+  height: 45px;
+  color: #cccccc;
   display: flex;
-  flex-direction: column;
+  align-items: center;
 }
 
-.person {
-  width: 100%;
+.edu-head h3 {
+  margin-left: 25px;
+}
+
+.edu-body {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.edu-body h3,
+p,
+h4 {
+  margin-bottom: 7px;
+}
+
+.edu-body p {
+  color: #9d9d9d;
+}
+
+/* right column */
+.right-col {
+  width: 365px;
+  height: 650px;
+  margin-left: 35px;
+}
+
+/* Connection Requests */
+.requests {
+  width: 240px;
+  margin-bottom: 35px;
+  border: solid 3px #cfcfcf;
+}
+
+.req-header {
+  background-color: #333333;
+  height: 60px;
+  color: #cccccc;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
-.edubody > * {
-  margin-bottom: 5px;
-}
-
-.r-side {
-  flex: 1;
-  margin: 10px;
-  height: 100%;
-}
-
-h3 {
-  line-height: 40px;
-}
-
-h3 > span {
-  background-color: rgb(156, 156, 156);
-  color: black;
-  padding: 2px 4px;
+.number-2 {
+  background-color: #cccccc;
+  color: #333333;
   border-radius: 50%;
-  text-align: center;
-  margin-right: 10px;
-}
-
-.picture {
-  padding-right: 10px;
-}
-
-.picture img {
-  height: 50px;
-  border-radius: 50%;
-}
-
-.pics {
-  flex: 2;
-  align-self: center;
-}
-
-.decide {
-  align-self: center;
-}
-
-.decide img {
+  width: 30px;
   height: 30px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.req-body {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.todd {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.todd p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.confirm {
+  display: flex;
+  margin-left: 50px;
+}
+
+.phil {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.phil p {
+  margin-left: 10px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.confirm-icon {
+  width: 30px;
+}
+
+.decline-icon {
+  width: 30px;
+  margin-left: 5px;
+}
+
+.people {
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+/* Your Connections */
+.friends-list {
+  width: 240px;
+  border: solid 3px #cfcfcf;
+}
+
+.conn-header {
+  background-color: #333333;
+  height: 60px;
+  color: #cccccc;
+  display: flex;
+  align-items: center;
+}
+
+.number-500 {
+  background-color: #cccccc;
+  color: #333333;
+  border-radius: 50%;
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.conn-body {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.conn-body p {
+  margin-top: 10px;
   margin-left: 10px;
 }
 
-.edubody > h3 {
-  color: gray;
+.pictures {
+  display: flex;
+  margin-bottom: 10px;
 }
 
-.connfoot > a {
-  text-decoration: underline;
-  color: blue;
+.link {
+  border-left: solid 3px #cfcfcf;
+  border-bottom: solid 3px #cfcfcf;
+  border-right: solid 3px #cfcfcf;
+  width: 240px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.link a {
+  margin-left: 10px;
 }
