@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Nav Bar Section */
+.nav {
+  background-color: black;
+  height: 60px;
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h1 {
+  font-weight: 400;
+  color: white;
+  margin-left: 20px;
+}
+
+/* Sub Header */
+.sub-head {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+a {
+  color: #105795;
+}
+
+/* Main Section */
+.main {
+  width: 650px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* Left Column */
+.left-column {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  border: solid black 3px;
+}
+
+.left-content a {
+  display: flex;
+}
+
+img {
+  height: 75px;
+  margin-left: 30px;
+}
+
+.left-content img, p {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.left-content a {
+  margin-left: 8px;
+}
+
+.left-content p {
+  margin-left: 5px;
+}
+
+.left-content img, a {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.left-content {
+  margin-top: 20px;
+}
+
+/* Right Column */
+.right-column {
+  width: 670px;
+  height: 600px;
+  margin-left: 20px;
+}
+
+button {
+  width: 50px;
+  height: 30px;
+  background-color: #FFD966;
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+}
+
+.paragraph-1 {
+  display: flex;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.paragraph-1 p {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.paragraph-1 h3 {
+  margin-right: 200px;
+  font-weight: 400;
+}
+
+.paragraph-2 {
+  margin-left: 20px;
+}
+
+.paragraph-2 p, a {
+  font-size: 20px;
+}
+
+.row-1 {
+  width: 450px;
+  margin-bottom: 10px;
+  border: solid black 3px;
+}
+
+.row-2 {
+  width: 450px;
+  margin-bottom: 10px;
+  border: solid black 3px;
+}
+
+.row-3 {
+  width: 450px;
+  margin-bottom: 10px;
+  border: solid black 3px;
+}
+
