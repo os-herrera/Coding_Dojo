@@ -1,63 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Dojonary</title>
-    <link rel="stylesheet" href="style.css">
-
-<head>
-
-</head>
-
-<body>
-</div>
-    <div class="nav-bar">
-            <h1>Dojonary</h1>
-            <form class="nav-search"> 
-                <input type="search" id="query" name="q" placeholder="Search...">
-            </form>
-            <div class="blue">
-                <button class="blue-b">Login</button>
+  </head>
+  <body>
+    <!-- Navigation Bar Section -->
+    <div class="nav">
+      <h1>Dojonary</h1>
+      <input type="text" value="Search" />
+      <button onclick="changeText(this)" class="login">Login</button>
     </div>
-    
+
+    <!-- Main Content -->
     <div class="main">
-    <div class="col-1">
-        <div class="word">
-            <h1>ninja</h1>
-            <span>noun</span>
-            <p>Plural:<span>ninjas</span></p>
-            <div class="likes">
-                <button>13 likes</button>
-            </div>
-            <div class="def-1">
-            <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+      
+      <!-- Left Column -->
+      <div class="column-left">
+
+        <!-- Definition #1 -->
+        <div class="definition-1">
+          <div class="def">
+            <h2>ninja</h2>
+            <h6>noun</h6>
+            <p>Plural: <span>ninjas</span></p>
+            <button class="likes" onclick="alertMe()">13 likes</button>
+          </div>
+          <div class="def-paragraph">
+            <p>
+              A practitioner skilled in the<br />
+              <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+            </p>
+          </div>
         </div>
-    </div>
-            <div class="word">
-                <h1>ninja</h1>
-                <span>noun</span>
-                <p>Plural:<span>ninjas</span></p>
-                <div class="likes">
-                    <button>37 likes</button>
-                </div>
-                <div class="def-2">
-                    <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
-                </div>
-            </div>
+
+        <!-- Definition #2 -->
+        <div class="definition-2">
+          <div class="def">
+            <h2>ninja</h2>
+            <h6>noun</h6>
+            <p>Plural: <span>ninjas</span></p>
+            <button class="likes">37 likes</button>
+          </div>
+          <div class="def-paragraph">
+            <p>
+              A <a href="#">programmer</a> who breaks <br />
+              down problems with <a href="#">zen</a>-like <br />
+              focus
+            </p>
+          </div>
         </div>
-        
-        <div class="col-2">
-            <div class="add">
-                <p>Dojonary is <br> defined by <span>YOU</span></p>
-                <div class="green">
-                    <button class="green-b">Add Definition</button>
-                </div>
-                </div>
-            </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="column-right">
+
+        <!-- Add definition section -->
+        <div class="add-def">
+          <p>
+            Dojonary is <br />
+            defined by <span>YOU</span>
+          </p>
+          <button class="add" onclick="deleteMe()">Add Definition</button>
         </div>
-    </div>
-    <script src="script.js"></script>   
-</body>
+      </div>
+    </div>   
+    <script src="script.js"></script>
+  </body>
 </html>
